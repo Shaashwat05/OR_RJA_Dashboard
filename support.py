@@ -24,7 +24,7 @@ def check_and_download_file(file_path):
         print(f"The file '{file_path}' does not exist. Downloading...")
         try:
             ct = client()
-            ct.download_file('rja-sanbernardino', 'dashboard/'+file_path, file_path)
+            ct.download_file('rja-sanbernardino', 'orange county dashboard/'+file_path, file_path)
             print(f"File downloaded successfully and saved as '{file_path}'.")
         except:
             print(f"An error occurred while downloading the file: {'error'}")
