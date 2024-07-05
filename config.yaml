@@ -1,0 +1,27 @@
+cookie:
+  expiry_days: 30
+  key: some_signature_key
+  name: some_cookie_name
+credentials:
+  usernames:
+    jsmith:
+      email: jsmith@gmail.com
+      failed_login_attempts: 1
+      logged_in: false
+      name: John Smith
+      password: $2b$12$s2mQzQ48FgmiSAMOoCzdouAkPQHsedGRez3YzENiXg1GbfSVgh9.S
+    rbriggs:
+      email: rbriggs@gmail.com
+      failed_login_attempts: 0
+      logged_in: false
+      name: Rebecca Briggs
+      password: Rja2024
+    rose:
+      email: 
+      failed_login_attempts: 0
+      logged_in: false
+      name: Rose
+      password: rjaorange
+pre-authorized:
+  emails:
+  - melsby@gmail.com
